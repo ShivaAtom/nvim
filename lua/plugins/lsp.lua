@@ -15,9 +15,9 @@ return {
         }
       }
     })
+    require('lspconfig').asm_lsp.setup({})
     require("lspconfig").clangd.setup({})
     require("lspconfig").pyright.setup({})
-    require("lspconfig").asm_lsp.setup({})
     require('lspconfig').emmet_language_server.setup({})
     require'lspconfig'.html.setup{}
     require'lspconfig'.bashls.setup{}

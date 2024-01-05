@@ -6,7 +6,7 @@ end
 
 keysa("n", "<C-s>", ":w<CR>")
 keysa("n", "<C-q>", ":q<CR>")
-keysa("","<C-Q>",":q!<CR>")
+keysa("n","<leader>q",":q!<CR>")
 
 keysa("n","<leader>t", ":Neotree toggle<CR>")
 keysa("n", "<C-l>",":Neotree focus<CR>")
